@@ -10,35 +10,36 @@
 </head>
 <body onscroll="onScrollEvent()">
     <!--#region navbar  -->
-    <nav id="navbar" class="top-0 left-0 right-0 z-10 bg-[#a6a6a2] bg-opacity-20 shadow-lg fixed transition-bg">
-        <div class="max-w-screen-xl flex items-center justify-between mx-auto">
-            <a href="#">
-                <img src="./images/LeatherTeck.png" class="h-24 md:h-32" alt="LeatherTeck"/>
-            </a>
-            <a href="#contact">
-                <button class="bg-[#e1c91b] hover:bg-blue-700 hover:text-white text-black font-bold py-2 px-4 rounded">
-                    Contact Us
-                </button>
-            </a>
-            
-        </div>
-    </nav>
-     <!--#endregion -->
+    <div>
+        <nav id="navbar" class="fixed top-0 left-0 right-0 z-10 bg-[#a6a6a2] bg-opacity-20 shadow-lg transition-bg">
+            <div class="max-w-screen-xl flex items-center justify-between mx-auto">
+                <a href="#">
+                    <img src="./images/LeatherTeck.png" class="h-24 md:h-32" alt="LeatherTeck"/>
+                </a>
+                <a href="#contact">
+                    <button class="bg-[#e1c91b] hover:bg-blue-700 hover:text-white text-black font-bold py-2 px-4 rounded">
+                        Contact Us
+                    </button>
+                </a>
+                
+            </div>
+        </nav>
+         <!--#endregion -->
     <!--#region banner-->
-    <div class="relative h-screen bg-[url('./images/Honda-Accord.jpeg')] bg-cover bg-center">
-            <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white p-2 text-center">
-                <span id="BrandName" class="text-5xl md:text-9xl">LeatherTeck</span>
-                <br>
-                <span class="underline underline-offset-4 text-xs md:text-lg">Experience the elegance of beautiful Leather Seats - Where Comfort meets luxury</span>
-            </div>
-    </div>
-    <!--#endregion-->
+        <div class="h-screen bg-fixed bg-[url('./images/Honda-Accord.jpeg')] bg-cover bg-center">
+                <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white p-2 text-center">
+                    <span id="BrandName" class="text-5xl md:text-9xl">LeatherTeck</span>
+                    <br>
+                    <span class="underline underline-offset-4 text-xs md:text-lg">Experience the elegance of beautiful Leather Seats - Where Comfort meets luxury</span>
+                </div>
+        </div>
+        <!--#endregion-->
     <!--#region start-->
-    <div class="relative h-fit bg-[url('./images/leather.jpg')] bg-cover bg-center flex items-center justify-center py-24 px-80">
+    <div class="h-fit bg-[url('./images/leather.jpg')] bg-cover bg-center flex items-center justify-center py-24 px-80">
         <div class="grid grid-cols-2 items-center">
-            <div class="w-64 h-64 rounded-full flex items-center justify-center bg-red-600 border-8 border-gray-500">
-                <h1 class="text-4xl font-bold text-white">START NOW</h1>
-            </div>
+            <a href="./src/page/chooseDesign.html">
+                <img src="./images/startNow.png" alt="Start Now">
+            </a>
             </div>
 
             <div class="text-center text-white w-fit">
@@ -61,11 +62,11 @@
             <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- First Card -->
                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <img src="path_to_your_image1.png" alt="Dodge Challenger" class="rounded-t-lg w-full h-48 object-cover">
+                    <img src="./images/carGallery/2020 Dodge Challenger.jpg" alt="Dodge Challenger" class="rounded-t-lg w-full h-80 object-cover">
                     <div class="p-4">
                         <h2 class="text-xl font-bold text-red-600 mb-2">DODGE CHALLENGER</h2>
                         <p class="text-gray-700">
-                            Calm and wise, Pedro is the perfect companion for an older individual looking for a less active experience. Responds well to commands and has a gorgeous, lustrous coat.
+                            These Dodge Challenger seats offer a rich, caramel-brown leather finish with a unique honeycomb pattern, exuding both luxury and boldness. Perfectly crafted for performance and comfort, they enhance your driving experience with a stylish, high-end touch.
                         </p>
                         <div class="text-center mt-4">
                             <button class="bg-red-600 text-white font-bold py-2 px-4 rounded-full">Make It</button>
@@ -75,12 +76,11 @@
                 
                 <!-- Second Card -->
                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <img src="path_to_your_image2.png" alt="Jasmine" class="rounded-t-lg w-full h-48 object-cover">
+                    <img src="./images/carGallery/2008 Chevrolet Avalanche.jpg" alt="Chevrolet Avalance" class="rounded-t-lg w-full h-80 object-cover">
                     <div class="p-4">
-                        <h2 class="text-xl font-bold text-red-600 mb-2">Jasmine</h2>
+                        <h2 class="text-xl font-bold text-red-600 mb-2">Chevrolet Avalance</h2>
                         <p class="text-gray-700">
-                            If you have young kids, Jasmine’s the perfect dog. Part playmate, part nanny, she’ll tire them out while keeping a watchful eye on everything. She also loves to cuddle at night!
-                        </p>
+                            These premium leather seats, designed for a Chevrolet Avalanche, feature sleek black upholstery with bold red stitching and a striking diamond pattern. The luxurious craftsmanship delivers both comfort and style, elevating your driving experience to the next level.                        </p>
                         <div class="text-center mt-4">
                             <button class="bg-red-600 text-white font-bold py-2 px-4 rounded-full">Make It</button>
                         </div>
@@ -89,12 +89,11 @@
 
                 <!-- Third Card -->
                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <img src="path_to_your_image3.png" alt="Jeep Wrangler" class="rounded-t-lg w-full h-48 object-cover">
+                    <img src="./images/carGallery/2021 Ford Bronco 4DR Outerbanks.jpg" alt="Ford Bronco" class="rounded-t-lg w-full h-80 object-cover">
                     <div class="p-4">
-                        <h2 class="text-xl font-bold text-red-600 mb-2">JEEP WRANGLER</h2>
+                        <h2 class="text-xl font-bold text-red-600 mb-2">Ford Bronco</h2>
                         <p class="text-gray-700">
-                            Intelligent, alert, and a bit mischievous, Michael is always up for an adventure. Whether you're jumping in the car for a weekend road trip or going for a run, he’ll be by your side.
-                        </p>
+                            These Ford Bronco Outerbanks seats boast a rugged yet refined design, combining earthy brown tones with durable, ribbed inserts for added texture and comfort. Perfect for both on-road luxury and off-road adventures, these seats exude style and resilience.                        </p>
                         <div class="text-center mt-4">
                             <button class="bg-red-600 text-white font-bold py-2 px-4 rounded-full">Make It</button>
                         </div>
@@ -102,26 +101,11 @@
                 </div>
                 <!-- Fourth Card -->
                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <img src="path_to_your_image3.png" alt="Jeep Wrangler" class="rounded-t-lg w-full h-48 object-cover">
+                    <img src="./images/carGallery/2023 Toyota Tundra.jpg" alt="Toyota Tundra" class="rounded-t-lg w-full h-80 object-cover">
                     <div class="p-4">
-                        <h2 class="text-xl font-bold text-red-600 mb-2">JEEP WRANGLER</h2>
+                        <h2 class="text-xl font-bold text-red-600 mb-2">Toyota Tundra</h2>
                         <p class="text-gray-700">
-                            Intelligent, alert, and a bit mischievous, Michael is always up for an adventure. Whether you're jumping in the car for a weekend road trip or going for a run, he’ll be by your side.
-                        </p>
-                        <div class="text-center mt-4">
-                            <button class="bg-red-600 text-white font-bold py-2 px-4 rounded-full">Make It</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fourth Card -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <img src="path_to_your_image3.png" alt="Jeep Wrangler" class="rounded-t-lg w-full h-48 object-cover">
-                    <div class="p-4">
-                        <h2 class="text-xl font-bold text-red-600 mb-2">JEEP WRANGLER</h2>
-                        <p class="text-gray-700">
-                            Intelligent, alert, and a bit mischievous, Michael is always up for an adventure. Whether you're jumping in the car for a weekend road trip or going for a run, he’ll be by your side.
-                        </p>
+                            These Toyota Tundra seats showcase a sleek black and beige colorway, accented by bold red lining for a striking contrast. Combining rugged durability with refined comfort, they bring a touch of modern elegance to your driving experience.                        </p>
                         <div class="text-center mt-4">
                             <button class="bg-red-600 text-white font-bold py-2 px-4 rounded-full">Make It</button>
                         </div>
@@ -130,12 +114,24 @@
 
                 <!-- Fourth Card -->
                 <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <img src="path_to_your_image3.png" alt="Jeep Wrangler" class="rounded-t-lg w-full h-48 object-cover">
+                    <img src="./images/carGallery/2019 Jeep Wrangler.jpg" alt="Jeep Wrangler" class="rounded-t-lg w-full h-80 object-cover">
                     <div class="p-4">
                         <h2 class="text-xl font-bold text-red-600 mb-2">JEEP WRANGLER</h2>
                         <p class="text-gray-700">
-                            Intelligent, alert, and a bit mischievous, Michael is always up for an adventure. Whether you're jumping in the car for a weekend road trip or going for a run, he’ll be by your side.
-                        </p>
+                            These Jeep Wrangler seats feature sleek black leather with an eye-catching diamond pattern, merging rugged off-road capability with upscale sophistication. Designed for both comfort and durability, they elevate your Wrangler's interior with a bold, refined look.                        </p>
+                        <div class="text-center mt-4">
+                            <button class="bg-red-600 text-white font-bold py-2 px-4 rounded-full">Make It</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fourth Card -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="./images/carGallery/2020 Honda Accord.jpg" alt="Honda Accord" class="rounded-t-lg w-full h-80 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-xl font-bold text-red-600 mb-2">Hondo Accord</h2>
+                        <p class="text-gray-700">
+                            These Honda Accord seats boast a sophisticated red leather finish, exuding elegance and a modern flair. Crafted for ultimate comfort and style, they transform your driving experience with a luxurious and vibrant touch.                        </p>
                         <div class="text-center mt-4">
                             <button class="bg-red-600 text-white font-bold py-2 px-4 rounded-full">Make It</button>
                         </div>
