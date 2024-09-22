@@ -7,10 +7,6 @@ body{
 }
 
 
-.transtion-bg{
-  transition: background-color 0.5s ease;
-}
-
 #BrandName{
   font-family: fantasy;
   text-shadow: -5px -5px 2px rgba(0, 0, 0, 1);
