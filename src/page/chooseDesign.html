@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/src/style/ChooseDesignStyle.css" />
+    <link rel="stylesheet" href="../style/ChooseDesignStyle.css" />
     <script src="/script/ChooseDesignScript.js"></script>
     <script src="/script/models/Cars.js"></script>
     <title>Choose Your Design</title>
   </head>
   <body>
     <!--#region navbar -->
-      <nav id="navbar" class="fixed top-0 left-0 right-0 z-10 bg-[#001F3F] bg-opacity-40 shadow-lg">
+      <nav id="navbar" class="left-0 right-0 bg-[#001F3F] shadow-lg">
         <div class="max-w-screen-xl flex items-center justify-between mx-auto px-4 md:px-[10%]">
             <a href="#">
                 <img id="logo" src="../../images/empholsterytechnology.png" class="h-10 md:h-24 my-6 transition-all" alt="Logo">
@@ -26,10 +26,11 @@
     <!--#endregion navbar-->
 
     <!--#region selection-->
-    <div class="h-full">
+    <div class="h-full p-10">
       <!-- #region Year-->
+       <h1 class="text-center text-3xl font-bold">SELECT YOUR VEHICLE</h1>
       <div class="custom-select inline">
-        <select name="years" id="years" onchange="onSelectedYear()" class="mt-[10%] ml-[25%]">
+        <select name="years" id="years" onchange="onSelectedYear()" class="mt-[5%] ml-[25%]">
           <option value="">Select Years</option>
           <option value="2025">2025</option>
           <option value="2024">2024</option>
@@ -167,7 +168,7 @@
           </div>
           <div class="flex flex-col">
               <h1 class="font-bold text-xs md:text-xl text-[#e1c91b]">MAP</h1>
-              <a target="_blank" href="https://maps.google.com/?q=34.08826320732539, -117.26927553470034" class="place-self-center"><img src="/images/map.jpg" class="size-[70%]" alt="map"></a>
+              <a target="_blank" href="https://maps.google.com/?q=34.08826320732539, -117.26927553470034" class="place-self-center"><img src="../../images/map.jpg" class="size-[70%]" alt="map"></a>
               <p class="md:text-base text-[10%]">(Click Image to view in Google Map)</p>
           </div>
       </div>
