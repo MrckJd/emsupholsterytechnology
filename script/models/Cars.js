@@ -281,7 +281,7 @@ const MakeModel={
         'VOLKSWAGEN': [ 'ATLAS',  'GOLF',  'JETTA',  'PASSAT',  'TIGUAN', ],
         },
     '2018': { 
-                'BUICK': [ 'ENCLAVE',  'ENCORE',  'ENVISION',  'REGAL',  'REGAL TOUR X', ],
+        'BUICK': [ 'ENCLAVE',  'ENCORE',  'ENVISION',  'REGAL',  'REGAL TOUR X', ],
         'CADILLAC': [ 'ESCALADE', ],
         'CHEVROLET': [ 'BOLT EV',  'CAMARO',  'CITY EXPRESS',  'COLORADO',  'CORVETTE',  'CRUZE',  'EQUINOX',  'IMPALA',  'MALIBU',  'SILVERADO',  'SONIC',  'SPARK',  'SUBURBAN',  'TAHOE',  'TRAVERSE',  'TRAX',  'VOLT', ],
         'CHRYSLER': [ '300',  'PACIFICA', ],
@@ -1135,7 +1135,5 @@ const MakeModel={
     '1984':{
     		'CHEVROLET':[ 'CORVETTE', ],
     	},
-
-
 };
 
